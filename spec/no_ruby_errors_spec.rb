@@ -29,6 +29,7 @@ describe "Not having any errors and being all green" do
       expect{
         load './lib/a_division_by_zero_error.rb'
       }.to_not raise_error
+
     end
   end
 end
